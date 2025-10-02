@@ -8,9 +8,13 @@ use Illuminate\Database\Eloquent\Model;
 class Kelas extends Model
 {
     use HasFactory;
+
+    protected $table = 'kelas'; // pastikan nama tabel sesuai di database
     protected $guarded = ['id'];
-    public function user()
+
+    // Tambahkan method ini
+    public function getKelas()
     {
-        return $this->hasMany(User::class, 'kelas_id');
+        return $this->all(); // ambil semua data dari tabel kelas
     }
 }
