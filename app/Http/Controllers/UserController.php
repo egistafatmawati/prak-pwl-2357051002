@@ -39,7 +39,7 @@ class UserController extends Controller
     public function index()
     {
         $users = $this->userModel->getUser();
-        $title = "Daftar Pengguna";
+        $title = "Daftar User";
 
         return view('list_user', compact('users', 'title'));
     }

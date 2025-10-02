@@ -2,7 +2,7 @@
 
 @section('content')
     <div>
-        <h1>Buat Pengguna Baru</h1>
+        <h1>Buat User Baru</h1>
 
         <form action="{{ route('user.store') }}" method="POST">
             @csrf
