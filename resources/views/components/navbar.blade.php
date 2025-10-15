@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm">
+<nav class="navbar navbar-expand-lg navbar-dark shadow-sm" style="background-color: #0f88b0ff;">
   <div class="container">
     <a class="navbar-brand fw-bold" href="{{ url('/') }}">UserApp</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">

@@ -14,7 +14,7 @@ class Matakuliah extends Model
     protected $guarded = ['id'];
 
     public $incrementing = false;
-    protected $skeyType = 'string';
+    protected $keyType = 'string';
 
     protected static function boot()
     {
